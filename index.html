@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adventure Time Princesses</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel=stylesheet href="assets/css/style.css">
+</head>
+<body>
+        
+    <div class="container">
+
+        <div class="jumbotron" id="header">
+            <h1 class="display-4"><strong>Adventure Time Princess Collector!</strong></h1> 
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="card">
+                        <div class="card-body" id="instructions">
+                            <h3 class="card-title">Instructions:</h3>
+                            <p>You will be given a random number at the start of the game.</p>
+                            <p>There are four princesses below. By clicking on a princess, you will add a specific amount of points to your total score.</p>
+                            <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+                            <p>The value of each princess is hidden from you until you click on it.</p>
+                            <p>Each time the game starts, the game will change the values of each princess.</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-sm-5">
+                    <img id="iceking" src="assets/images/iceking.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        Match this score:
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center"><span id="match-this-number"></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        Your score:
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center"><span id="your-totalscore">0</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Wins: <span id="wins-count">0</span></p>
+                        <p>Losses: <span id="losses-count">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="row">               
+                <div class="col-sm-3">
+                    <button class="princess-btn btn btn-success">
+                        <img src="assets/images/bubblegum.png" alt="princess-bubblegum" id="bubblegum">
+                    </button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="princess-btn btn btn-primary">
+                        <img src="assets/images/flameprincess.png" alt="flame-princess" id="flame">
+                    </button
+                ></div>
+                <div class="col-sm-3">
+                    <button class="princess-btn btn btn-warning">
+                        <img src="assets/images/lsp.png" alt="lumpy-space-princess" id="lsp">
+                    </button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="princess-btn btn btn-danger">
+                        <img src="assets/images/slimeprincess.png" alt="slime-princess" id="slime">
+                    </button>
+                </div>               
+            </div>       
+        </div>
+
+
+        <div class="container">
+
+        </div>
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
+
+    </div>
+
+</body>
+</html>

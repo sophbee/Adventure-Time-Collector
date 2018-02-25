@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+    background-image: url("../images/iceptrn.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.princess-btn {
+    height: 215px;
+    width: 100%;
+    overflow: hidden;
+    margin: 2em 0;
+}
+
+.princess-btn img {
+    height: auto;
+    max-width: 100%;
+}
+
+#iceking {
+    max-width: 100%;
+    margin: 2em 0;
+    height: auto;
+}
+
+#header {
+    background-color: rgb(191, 224, 240);
+    color: rgb(100, 98, 98);
+    text-align: center;
+}
+
+#instructions {
+    background-color: rgb(191, 224, 240);
+    color: rgb(100, 98, 98);
+}
